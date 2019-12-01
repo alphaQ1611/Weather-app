@@ -4,6 +4,7 @@ const path=require('path')
 const hbs =require('hbs')
 const geocode=require('./utils/geocode')
 const forecast=require('./utils/forecast')
+const port =process.env.PORT || 3000
 
 
  const publicDirectoryPath=path.join(__dirname,'../public')
@@ -56,6 +57,6 @@ app.get('/weather',(req,res)=>{
     })
     
 })
-app.listen(3000,() => {
+app.listen(port,() => {
     console.log("The server is running!")
 })

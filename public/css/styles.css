@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    columns: #333333;
+    margin:0 50px;
+    
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.header{
+    columns: #333330;;
+    height: 100px;
+    font-size: 50px;
+
+}
+input{
+    width:25%;
+    padding: 12px;
+    margin:8px;
+    box-sizing: border-box;
+    font-size:20px;
+}
+button{
+    font-size:20px;
+    text-align:center;
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color:white;
+    padding: 8px;
+    
+}
+.p{
+     
+    height:600px;
+    margin:50px 0px 0px 0px;
+}
+a{
+    color:grey;
+    
+    text-decoration: none;
+    font-size: 20px;
+    margin:0 5px;
+
+    
+}
+a:visited{
+    color: grey;
+}
+a:hover{
+    color:black;
+}
+
+a:active{
+    color: black;
+}
